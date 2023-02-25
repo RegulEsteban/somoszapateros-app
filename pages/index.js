@@ -22,7 +22,7 @@ function Home({ posts }) {
 		<Navbar header={posts.data.header} />
 		<Hero
 			heading="Captur Photography"
-			message="I capture moments in nature and keep them alive."
+			message="Más que un par de zapatos, es cultura, historia y tradición."
 		/>
 		<Sections />
 		<Releases />
@@ -31,7 +31,7 @@ function Home({ posts }) {
 		<HeroDescription
 			content="It's a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory."
 			category="Blog"
-			title="LEAGUE OF LEGENDS"
+			title="Nuestra historia como artesanos"
 			url="#"
 			videoSrc="https://player.vimeo.com/external/474375164.sd.mp4?s=18d69af509cf8e20802cb3c5ee3d1f85f386f7b0&profile_id=164&oauth2_token_id=57447761"
 			left

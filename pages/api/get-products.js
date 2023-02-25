@@ -13,9 +13,11 @@ export default async function handler(req, res){
         products: []
     }
 
+    const { perPage } = req?.query ?? {}
+
     try {
         const { data } = await api.get('products', {
-            per_page: 50
+            per_page: perPage || 50
         })
 
         responseData.success = true

@@ -6,17 +6,17 @@ function HeroDescription({ content, category, title, url, videoSrc, left }) {
         <p className="mb-3 text-lg font-semibold uppercase leading-snug tracking-wide text-sz-brown">
           {category}
         </p>
-        <h2 className="mb-8 text-4xl font-extrabold tracking-tight text-sz-gray dark:text-gray-100 xl:text-6xl">
+        <h2 className="mb-8 text-5xl font-extrabold tracking-tight text-sz-gray dark:text-gray-100">
           {title}
         </h2>
-        <p className="mb-6 text-lg font-medium leading-8 text-gray-500 xl:text-2xl xl:leading-10">
+        <p className="mb-6 text-lg font-medium leading-8 text-gray-500">
           {content}
         </p>
         <a
           href={url}
           className="text-xl font-medium text-sz-brown transition-colors duration-200 hover:text-sz-brown-dark hover:underline xl:text-2xl"
         >
-          Learn more
+          Leer más...
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="ml-2 inline-flex h-6 w-6"
