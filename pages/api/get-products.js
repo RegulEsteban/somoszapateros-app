@@ -21,7 +21,7 @@ export default async function handler(req, res){
         })
 
         responseData.success = true
-        responseData.data = data
+        responseData.products = data
 
         res.json(responseData)
     } catch (error) {
